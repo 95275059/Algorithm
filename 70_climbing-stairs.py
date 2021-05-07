@@ -1,10 +1,9 @@
 """
 70.爬楼梯
 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
-
 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
-
 注意：给定 n 是一个正整数。
+
 解题思路：动态规划，可以通过递归和迭代的方式实现
 """
 class Solution(object):
@@ -37,6 +36,6 @@ class Solution(object):
 
 
 if __name__ == '__main__':
- solution = Solution()
- num = 38
- print(solution.climbStairs(num))
+    solution = Solution()
+    num = 38
+    print(solution.climbStairs(num))
