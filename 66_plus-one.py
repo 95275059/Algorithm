@@ -48,9 +48,9 @@ class Solution(object):
         return list(map(int, list(str(int(''.join(map(str, digits))) + 1))))
 
 if __name__ == '__main__':
- solution = Solution()
- digits = [1, 2, 3]
- digits = [4, 3, 2, 1]
- digits = [0]
- digits = [9, 9, 9]
- print(solution.plusOne(digits))
+    solution = Solution()
+    digits = [1, 2, 3]
+    digits = [4, 3, 2, 1]
+    digits = [0]
+    digits = [9, 9, 9]
+    print(solution.plusOne(digits))
