@@ -2,7 +2,7 @@
 14.最长公共前缀
 编写一个函数来查找字符串数组中的最长公共前缀。
 
-如果不存在公共前缀，返回空字符串 ""。
+如果不存在公共前缀，返回空字符串符串 ""。 ""。
 
 测试用例：
 strs = ["flower","flow","flight"] : "fl";
@@ -13,7 +13,8 @@ strs = ["dog","racecar","car"] : "" ; 输入不存在公共前缀。
 0 <= strs[i].length <= 200
 strs[i] 仅由小写英文字母组成
 
-解题思路：水平扫描法;利用python的max()和min();利用python的zip函数;
+解题思路：横向扫描法;纵向扫描;分支法
+其他：利用python的max()和min();利用python的zip函数;
 https://www.jianshu.com/p/4ef3cfa01367
 """
 class Solution(object):

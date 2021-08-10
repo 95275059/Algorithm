@@ -106,6 +106,6 @@ class Solution(object):
 
 
 if __name__ == '__main__':
- n = 5
- solution = Solution()
- print(solution.countAndSay(n))
+    n = 5
+    solution = Solution()
+    print(solution.countAndSay(n))

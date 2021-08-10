@@ -9,6 +9,8 @@ haystack = "aaaaa", needle = "bba" : -1;
 
 对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
 解题思路：双指针，字符串截取；find;index;
+本题是经典的字符串单模匹配的模型，因此可以使用字符串匹配算法解决，
+    常见的字符串匹配算法包括暴力匹配、Knuth-Morris-Pratt 算法、Boyer-Moore 算法、Sunday 算法等
 """
 
 class Solution(object):

@@ -30,8 +30,9 @@ class Solution(object):
             i -= 1
         return length
 
+
 if __name__ == '__main__':
- solution = Solution()
- s = "Hello World "
- s = "a "
- print(solution.lengthOfLastWord(s))
+    solution = Solution()
+    s = "Hello World "
+    s = "a "
+    print(solution.lengthOfLastWord(s))

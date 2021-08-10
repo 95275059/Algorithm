@@ -41,8 +41,6 @@ class Solution(object):
         for i in range(len(nums)):
             func_n = max(nums[i], func_n + nums[i])
             res = max(func_n, res)
-            print('func_m=%d' % func_n)
-            print('res=%d' % res)
         return res
 
     def maxSubArray2(self, nums):
